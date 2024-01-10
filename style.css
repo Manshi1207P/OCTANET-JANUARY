@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem + 2vw);
+}
+
+body{
+    font-family: 'Lemon', serif;
+}
+
+.section-1{
+    min-height: 100vh;
+    background:
+    linear-gradient(black, transparent), 
+    url('https://assets.cntraveller.in/photos/60ba26c0bfe773a828a47146/16:9/w_960,c_limit/Burgers-Mumbai-Delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1rem;
+    color: white;
+
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.text2{
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 3rem;
+}
+
+.hero-text p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-text button{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2pxs solid red;
+    border-radius: 50%;
+    font-family: 'Lemon';
+    color: black;
+}
+.hero-text{
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
